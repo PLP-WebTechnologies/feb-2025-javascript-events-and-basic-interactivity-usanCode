@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en"> 
+    <head>
+
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+        <link rel="stylesheet" type="text/css" href="./style.css">
+        
+        <title>JavaScript Event Handling & Interactive Elements Assignment</title>
+
+
+    </head>  
+    
+    <body>
+
+        <h1>1.<u>Event Handling</u></h1>
+
+        <p>I am going to change the color of this sentence: <span id="name">My name is Usanase!</span></p>
+
+        <button id="question">What's my name?</button>
+
+        <!--Creating a slideshow-->
+
+        <h2 id="animatedText"></h2>
+
+        <div id="slideshow">
+            <img id="slide" src="./images/meou.jpg" alt="Slideshow Image" width="500" height="500">
+          </div>
+
+
+          <form id="myForm">
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+           <span id="emailError" class="error"></span> 
+           <span id="emailFeedback" class="feedback"></span>
+          
+            <label for="password">Password:</label>
+            <input type="password" id="password" minlength="8" required>
+            <span id="passwordError" class="error"></span>
+            <span id="passwordFeedback" class="feedback"></span>
+          
+            <button type="submit">Submit</button>
+          </form>
+
+
+        <script src="./script.js"></script>
+    </body>
+
+
+
+
+</html>

@@ -1,0 +1,63 @@
+
+
+body{
+    text-align: center;
+    background-color:greenyellow;
+
+}
+
+#name{
+    
+    color: blue;
+    
+}
+
+button{
+    
+    background-color: rgb(151, 151, 226);
+    color: white;
+    border-radius: 15px;
+    font-weight: bold;
+    padding: 10px;;
+    
+    cursor: pointer;
+    
+}
+
+#slideshow {
+    text-align: center;
+    margin: 20px auto;
+  }
+  
+  #slide {
+    border: 2px solid #ccc;
+    border-radius: 10px;
+  }
+
+  #animatedText {
+    position: relative;
+    font-size: 24px;
+    font-weight: bold;
+    color: blue;
+  }
+
+  .error {
+    color: red;
+    font-size: 12px;
+    display: none;
+  }
+
+  .feedback {
+    font-size: 12px;
+    color: gray;
+    display: inline;
+    margin-top: 5px;
+  }
+  
+  .feedback.error {
+    color: red;
+  }
+  
+  .feedback.success {
+    color: green;
+  }
