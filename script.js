@@ -2,8 +2,7 @@
 //CHANGING THE COLOR OF THE TEXT ON MOUSEOVER AND MOUSEOUT
 
 
-const myName =document.querySelector("#name");
-
+const myName =document.querySelector("#name"); 
 
 
 // Change text color on mouseover
